@@ -1,21 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import { Link } from 'react-router-dom';
+import './App.css'
+import { Routes, Route } from 'react-router-dom'
 
 const App = () => {
-  return (
-    <div>
-      <h1>Common UI toolkit</h1>
-      <nav
-        style={{
-          borderBottom: 'solid 1px',
-          paddingBottom: '1rem',
-        }}
-      >
-        <Link to="/invoices">Invoices</Link> | <Link to="/expenses">Expenses</Link>
-      </nav>
-    </div>
-  );
-};
+	return (
+		<Routes>
+			<Route path='/' element={<App />} />
+			<Route
+				path='*'
+				element={
+					<main style={{ padding: '1rem', backgroundColor: 'red' }}>
+						<p>There's nothing here!</p>
+					</main>
+				}
+			/>
+		</Routes>
+	)
+}
 
-export default App;
+export default App
