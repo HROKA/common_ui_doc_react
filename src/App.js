@@ -1,10 +1,11 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
+import { Home } from './screens'
 
 const App = () => {
 	return (
 		<Routes>
-			<Route path='/' element={<App />} />
+			<Route path='/' element={<Home />} />
 			<Route
 				path='*'
 				element={
