@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "CUT",
+  "name": "Common UI Toolkit",
   "icons": [
     {
       "src": "logo.png",

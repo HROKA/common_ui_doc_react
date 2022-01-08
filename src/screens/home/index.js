@@ -38,10 +38,9 @@ const Home = () => {
 			alternate: false,
 		},
 		bottomLead: {
-			actionText: 'Download the app now.',
-			description:
-				'Available on your favourite store. Start your premium experience now.',
-			mainActionText: 'Playstore',
+			actionText: 'Download the demo now.',
+			description: 'Available on your favorite store.',
+			mainActionText: 'Play store',
 			extraActionText: 'App Store',
 		},
 	}

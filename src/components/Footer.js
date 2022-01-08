@@ -60,7 +60,7 @@ const Footer = ({ logo }) => {
 				</a>
 			</div>
 			<div className='mt-10 text-lg text-blue-800 lg:mt-0'>
-				Copyright 2021 Bella Onojie
+				Copyright 2021 Common UI Toolkit
 			</div>
 		</div>
 	)

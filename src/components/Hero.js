@@ -16,7 +16,7 @@ const Hero = ({ title, description, mainActionText, extraActionText }) => {
 					</p>
 				</div>
 				<div>
-					<p className='p-4 pt-6 font-sans text-2xl  text-center text-gray-500 lg:text-gray-200 '>
+					<p className='p-3 pt-5 font-sans text-3xl  text-center text-gray-800 lg:text-gray-200 '>
 						{description}
 					</p>
 				</div>
