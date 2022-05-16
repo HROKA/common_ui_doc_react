@@ -9,7 +9,7 @@ const Home = () => {
 		hero: {
 			title: 'Common UI Toolkit',
 			description:
-				'NativeBase is an accessible, utility-first component library that helps you build consistent UI across Android, iOS and Web.',
+				'Common UI Toolkit is a collection of React components that can be used to build a user interface for your application.',
 			mainActionText: 'Get started',
 			extraActionText: 'Examples',
 		},
